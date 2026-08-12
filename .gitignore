@@ -1,0 +1,59 @@
+# ==========================================
+# 1. Sistema Operativo e IDEs / Editores
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+
+# Editores de código (VS Code, JetBrains / IntelliJ / WebStorm, Eclipse)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# Archivos de entorno y variables secretas
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# 2. Frontend (Angular / Node.js)
+# ==========================================
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/tmp/
+frontend/out-tsc/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.cache/
+
+# ==========================================
+# 3. Backend (Java / Maven / Spring Boot)
+# ==========================================
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/build/
+backend/.gradle/
+
+# ==========================================
+# 4. Docker / Datos Locales
+# ==========================================
+.docker/
+postgres_data/
