@@ -45,7 +45,7 @@ jobs:
           cd backend
           ./mvnw test
 
-    build-frontend:
+  build-frontend:
     name: Build Frontend (Angular SPA)
     runs-on: ubuntu-latest
 
