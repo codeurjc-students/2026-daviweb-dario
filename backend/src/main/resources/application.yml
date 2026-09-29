@@ -1,21 +1,16 @@
 spring:
   application:
     name: daviweb
-
+  profiles:
+    default: dev
   datasource:
-    url: jdbc:postgresql://localhost:5432/daviweb_db
-    username: daviweb_user
-    password: daviweb_password
-    driver-class-name: org.postgresql.Driver
-
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/daviweb_db}
+    username: ${DB_USERNAME:daviweb_user}
+    password: ${DB_PASSWORD:daviweb_password}
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
 
 server:
   port: 8080
