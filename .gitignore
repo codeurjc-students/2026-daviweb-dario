@@ -1,5 +1,5 @@
 # ==========================================
-# 1. Sistema Operativo e IDEs / Editores
+# 1. Operating system and IDEs / editors
 # ==========================================
 .DS_Store
 .DS_Store?
@@ -10,7 +10,7 @@ ehthumbs.db
 Thumbs.db
 *.log
 
-# Editores de código (VS Code, JetBrains / IntelliJ / WebStorm, Eclipse)
+# Code editors (VS Code, JetBrains / IntelliJ / WebStorm, Eclipse)
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -24,7 +24,7 @@ Thumbs.db
 .project
 .settings/
 
-# Archivos de entorno y variables secretas
+# Environment files and secrets
 .env
 .env.local
 .env.*.local
@@ -53,7 +53,7 @@ backend/build/
 backend/.gradle/
 
 # ==========================================
-# 4. Docker / Datos Locales
+# 4. Docker / Local Data
 # ==========================================
 .docker/
 postgres_data/
