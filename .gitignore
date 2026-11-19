@@ -57,3 +57,8 @@ backend/.gradle/
 # ==========================================
 .docker/
 postgres_data/
+
+# ==========================================
+# 5. Personal study material (not part of the app)
+# ==========================================
+quiz/
