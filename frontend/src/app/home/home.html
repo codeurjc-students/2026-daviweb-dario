@@ -1,0 +1,17 @@
+<h1>DaviWeb</h1>
+
+<h2>Services</h2>
+
+@if (services(); as page) {
+  <ul>
+    @for (service of page.content; track service.id) {
+      <li>
+        <strong>{{ service.name }}</strong> - {{ service.basePrice | currency: 'EUR' }}
+        <br />
+        {{ service.description }}
+      </li>
+    }
+  </ul>
+} @else {
+  <p>Loading services...</p>
+}
